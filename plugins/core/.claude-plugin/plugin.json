@@ -1,0 +1,11 @@
+{
+  "name": "core",
+  "version": "0.2.0",
+  "description": "Core tools for vector database development: pilot (main controller + routing), ray (data processing orchestration), embedding, chunking, indexing, rerank, and local deployment",
+  "author": {
+    "name": "Zilliz",
+    "url": "https://github.com/zilliztech"
+  },
+  "license": "Apache-2.0",
+  "keywords": ["pilot", "ray", "embedding", "chunking", "indexing", "vector", "milvus", "rerank", "data-processing", "pipeline"]
+}

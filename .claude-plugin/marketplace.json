@@ -1,0 +1,26 @@
+{
+  "name": "milvus-marketplace",
+  "owner": {
+    "name": "Zilliz",
+    "email": "support@zilliz.com"
+  },
+  "metadata": {
+    "description": "Build AI applications with vector search, RAG, and semantic search using Milvus",
+    "version": "0.1.0",
+    "homepage": "https://milvus.io"
+  },
+  "plugins": [
+    {
+      "name": "core",
+      "source": "./plugins/core",
+      "description": "Core tools for vector database development: pilot (main controller), embedding, chunking, indexing, data ingestion, and local deployment",
+      "version": "0.1.0"
+    },
+    {
+      "name": "scenarios",
+      "source": "./plugins/scenarios",
+      "description": "Ready-made solutions for AI application scenarios: semantic search, RAG, document QA, image search, and recommendation systems",
+      "version": "0.1.0"
+    }
+  ]
+}
